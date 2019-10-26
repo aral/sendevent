@@ -1,7 +1,7 @@
 {
-  "name": "sendevent",
-  "version": "1.0.5",
-  "description": "Middleware for server-sent-events with iframe fallback",
+  "name": "@small-tech/sendevent",
+  "version": "1.0.0",
+  "description": "Fork of sendevent: Middleware for server-sent-events with iframe fallback",
   "keywords": [
     "sse",
     "eventsource",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/fgnass/sendevent.git"
+    "url": "http://github.com/aral/sendevent.git"
   },
   "main": "index.js",
   "browser": "client.js",

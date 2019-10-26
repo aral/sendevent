@@ -1,6 +1,28 @@
 # sendevent
 
-[![Build Status](https://travis-ci.org/fgnass/sendevent.png?branch=master)](https://travis-ci.org/fgnass/sendevent)
+---
+
+## Note: this is a fork.
+
+This fork of [sendevent](https://github.com/fgnass/sendevent). You should use the main project once the following pull requests have been merged:
+
+### Awaiting merge
+
+  - Fix disconnection issue on Firefox after 30 seconds of inactivity following a page reload. ([Pull request]())
+
+I’m publishing this fork for our own internal use at [Small Technology Foundation](https://small-tech.org) in [Site.js](https://sitejs.org) and you are, of course, more than welcome to use it in your projects but please keep an eye on [Felix Gnass’s original repository](https://github.com/fgnass/sendevent) and use the module from there once the above pull requests have been merged.
+
+Thank you, Felix, for this and for [instant](https://github.com/fgnass/sendevent) (which sendevent is used in) for making my life easier and Site.js better :)
+
+### References on the Firefox issue
+
+  - [WebSocket was interrupted while page is loading](https://stackoverflow.com/a/23784296)
+  - [Firefox : "connection interrupted while the page was loading"](https://github.com/ratchetphp/Ratchet/issues/593)
+  - [Bugzilla issue](https://bugzilla.mozilla.org/show_bug.cgi?id=712329)
+
+__Original readme follows:__
+
+---
 
 Middleware to stream [server-sent events](http://en.wikipedia.org/wiki/Server-sent_events)
 to the client. Browsers that don't support the EventSource interface will fall
