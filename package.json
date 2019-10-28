@@ -1,7 +1,12 @@
 {
   "name": "@small-tech/sendevent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fork of sendevent: Middleware for server-sent-events with iframe fallback",
+  "author": "Felix Gnass <fgnass@gmail.com>",
+  "contributors": [
+    "Aral Balkan <mail@ar.al> (https://ar.al)"
+  ],
+  "license": "MIT",
   "keywords": [
     "sse",
     "eventsource",
